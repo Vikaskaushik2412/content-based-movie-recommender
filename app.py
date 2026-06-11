@@ -119,7 +119,7 @@ movies = load_data()
 try:
     API_KEY = st.secrets["TMDB_API_KEY"]
 except:
-    API_KEY = "d3d50b4bdcd3cad65fafce221650ba18"
+    API_KEY = "YOUR_API_KEY"
 
 @st.cache_data(show_spinner=False)
 def fetch_movie_details(movie_id):
