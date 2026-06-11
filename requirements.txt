@@ -3,4 +3,3 @@ pandas
 scikit-learn
 numpy
 requests
-tmdb api key 
